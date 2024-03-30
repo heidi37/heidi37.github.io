@@ -44,7 +44,7 @@
     <title>Heidi's Welcome Page</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container opaque">
       <div class="header--hero text-center">
         <div class="img--headshot-wrapper">
           <img
@@ -58,7 +58,7 @@
           <h1 class="mb-1">Hello, I'm Heidi.</h1>
           <p class="px-5">I am a web developer and production specialist.</p>
           <div class="button-strip">
-            <a href="loading-page.html" class="button" id="portfolio-button"
+            <a href="#" class="button" id="portfolio-button"
               >Portfolio &raquo;</a
             >
             <a href="https://github.com/heidi37" class="button"
@@ -70,6 +70,13 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="server-message">
+      <h3>Please wait...</h3>Starting server...<br>Content will load in less than 20 seconds.</p>
+      <div class="loader my-2"></div>
+      <small>*Free server provided by
+        <a href="https://render.com" target="_blank">render.com</a></small
+      >
     </div>
   </body>
 </html>
