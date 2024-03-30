@@ -40,7 +40,7 @@
       media="all"
     />
     <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
-    <script src="/static/js/index.js" defer></script>
+    <script src="/js/index.js" defer></script>
     <title>Heidi's Welcome Page</title>
   </head>
   <body>
@@ -58,9 +58,7 @@
           <h1 class="mb-1">Hello, I'm Heidi.</h1>
           <p class="px-5">I am a web developer and production specialist.</p>
           <div class="button-strip">
-            <a
-              href="https://heidis-python-portfolio.onrender.com/"
-              class="button"
+            <a href="#" class="button" id="portfolio-button"
               >Portfolio &raquo;</a
             >
             <a href="https://github.com/heidi37" class="button"
@@ -73,7 +71,12 @@
         </div>
       </div>
     </div>
-      <div class="server-message"><p>Please wait while the server* spins up.</p>
-      <small>*Free server provided by <a href="https://render.com" target="_blank">render.com</a></small></div>
+    <div id="server-message">
+      <h3>Please wait...</h3>Starting server...<br>A new window will open. Content will load in less than 30 seconds.</p>
+      <div class="loader my-2"></div>
+      <small>*Free server provided by
+        <a href="https://render.com" target="_blank">render.com</a></small
+      >
+    </div>
   </body>
 </html>
