@@ -10,15 +10,4 @@ I built a dynamic site with Python and Flask to display my web developer portfol
 
 I built the landing page located at [heidifryzell.com](https://heidifryzell.com) to act as my homepage and direct visitors to my portfolio, Github repos and LinkedIn profile.
 
-<a href="https://heidifryzell.com">
-<button style="background-color: #404fa0;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  margin: 4px 2px;
-  border-radius: 10px;
-  cursor: pointer;">heidifryzell.com</button></a>
+[heidifryzell.com](https://heidifryzell.com)
