@@ -1,17 +1,17 @@
-// const portfolioButton =document.getElementById('portfolio-button');
-// const serverLoadingMessage = document.getElementById('server-message');
-// const containerDiv = document.querySelector(".container")
+const flashingText = document.querySelector('.flashing-text');
+const texts = [
+  "Thank you for waiting",
+  "Free server is a little slow",
+  "🙏"
+];
+let index = 0;
 
+function changeText() {
+  flashingText.textContent = texts[index];
+  index = (index + 1) % texts.length;
+}
 
-// portfolioButton.addEventListener("click", function(){
-//   serverLoadingMessage.style.display = "block";
-//   containerDiv.style.opacity = "0.3";
-
-//   setTimeout(function() {
-//     serverLoadingMessage.style.display = "none";
-//     window.location.assign("https://heidis-python-portfolio.onrender.com/");
-//   }, 5000)
-// })
+setInterval(changeText, 5000);
 
 function redirectToNewPage() {
   setTimeout(function() {

@@ -125,6 +125,16 @@ small {
   margin-bottom: 0;
 }
 
+.flashing-text {
+  animation: change-text 5s ease-in infinite;
+}
+
+@keyframes change-text {
+  0% { content: "Starting server..."; }
+  33% { content: "Thank you for waiting"; }
+  66% { content: "Free server is a little low"; }
+}
+
 .loader {
   width: 100px;
   height: 100px;
