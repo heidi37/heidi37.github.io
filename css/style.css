@@ -132,7 +132,7 @@ small {
 @keyframes change-text {
   0% { content: "Starting server..."; }
   33% { content: "Thank you for waiting"; }
-  66% { content: "Free server is a little low"; }
+  66% { content: "🙏"; }
 }
 
 .loader {
