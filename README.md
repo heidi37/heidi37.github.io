@@ -11,3 +11,12 @@ I built a dynamic site with Python and Flask to display my web developer portfol
 <img src="./images/screenshot2.png" alt="screenshot of homepage on heidifryzell.com" />
 
 Checkout my landing page: [heidifryzell.com](https://heidifryzell.com)
+
+<table border="1">
+  <tr>
+    <td style="text-align: center;"><a href="https://heidifryzell.com">My Portfolio</a> | <a href="https://github.com/heidi37/my-python-portfolio">Repo</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://heidifryzell.com"><img width="300" src="https://raw.githubusercontent.com/heidi37/my-python-portfolio/main/static/images/screenshot.png" alt="screenshot of web development portfolio built with Python" /></a></td>
+  </tr>
+</table>
